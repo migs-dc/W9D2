@@ -1,0 +1,35 @@
+h1 {
+  /* margin: auto; */
+  text-align: center;
+}
+
+.ttt {
+  margin: auto;
+  height: 400px;
+  width: 400px;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: center; */
+}
+
+ul > li:nth-child(-n+3){
+  
+}
+
+li {
+  display: block;
+  background: grey;
+  border: 5px solid black;
+
+  height: 100px;
+  width: 100px;
+
+  cursor: pointer;
+}
+
+li:hover {
+  background: yellow;
+}
